@@ -1,6 +1,8 @@
 # vim-timecode-compress
 A Vim Plugin to retime and compress all SRT timecodes (preceding the current timecode at the cursor location) and increment them backwards in milliseconds.
 
+The plutin searches backward for preceding timecodes and compresses them to a duration of milliseconds. (A useful pre-process if shifting timecodes backwards using other SRT editing tools).
+
 ## Installation
 ### Using vim-plug
 Add the following to your `.vimrc` or `init.vim`:
