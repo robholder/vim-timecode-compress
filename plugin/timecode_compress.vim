@@ -4,7 +4,7 @@
 " TimecodeCompress: A function to process timecodes near the start of an SRT file from
 " the current line backwards to compress into gaps of 2 milliseconds duration.
 "
-" Place the cursor in the first timecode line NOT to change, and <Leader>t
+" Place the cursor in the first timecode line NOT to change, and <Leader>tt
 "
 function! TimecodeCompress()
     " Get the current line content
@@ -76,7 +76,7 @@ function! TimecodeCompress()
 endfunction
 
 " Map the function to a key, for example, <Leader>t
-nnoremap <Leader>t :call TimecodeCompress()<CR>
+nnoremap <Leader>tt :call TimecodeCompress()<CR>
 "
 " Define a user command to call the function
 command! TimecodeCompress call TimecodeCompress()
