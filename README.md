@@ -14,4 +14,4 @@ Run `:PlugInstall` to install.
 
 ## Usage
 - Use place cursor on first timecode line to remain unchanged, then `:TimecodeCompress` to compress all preceding timecode lines to milliseconds duration.
-- Or place cursor on first timecode line to remain unchanged, then press `<Leader>t`.
+- Or place cursor on first timecode line to remain unchanged, then press `<Leader>tt`.
